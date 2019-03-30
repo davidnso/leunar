@@ -4,9 +4,15 @@ import {Font} from 'expo';
 import { Colors } from './Colors';
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import HomeScreen from './Home/Home'
+import SleepStatsScreen from './SleepStats/SleepStats';
+import OptimizeSleepScreen from './OptimizeSleep/OptimizeSleep';
+
+
 const AppNavigator = createStackNavigator({
-  Home: HomeScreen
-},{headerMode: 'none'});
+  Home: HomeScreen,
+  SleepStats: SleepStatsScreen,
+  OptimizeSleep: OptimizeSleepScreen
+},{headerMode: 'none', initialRouteName: 'Home'});
 
 const AppContainer = createAppContainer(AppNavigator);
 

@@ -13,10 +13,10 @@ export const styles = StyleSheet.create({
         height: '100%', 
         borderRadius: 10,
         width: '100%',
-        paddingHorizontal:20, 
+        padding:20, 
     },
     option:{
-    fontSize: 18,
+    fontSize: 17,
     fontFamily: Fonts.MEDIUM,
     color: Colors.WHITE},
     info:{

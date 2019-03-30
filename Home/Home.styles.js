@@ -14,6 +14,18 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 25,
     paddingTop: 50,
   },
+  modalOverlay:{
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    backgroundColor: 'rgba(0,0,0,.9)',
+    zIndex: 9999,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 50
+  },
   topHeader: {
     flexDirection: 'row',
     alignItems: 'center',
